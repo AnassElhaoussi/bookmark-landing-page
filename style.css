@@ -28,7 +28,7 @@ body {
     object-fit: none;
 }
 
-.nav-links a, button {
+.nav-links a, .nav-links button {
     font-size: 1.3rem;
     margin-left: 4rem;
     letter-spacing: 1px;
@@ -56,5 +56,173 @@ body {
 .nav-links button:hover {
     padding: 1rem 3rem;
 }
+
+.main-sct {
+    display: flex;
+    gap: 4rem;
+
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 12rem;
+
+}
+
+.text-container h1 {
+    font-size: 5rem;
+    opacity: 0.9;
+    font-weight: 550;
+    width: 120%;
+}
+
+.text-container p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    opacity: 0.7;
+    width: 90%;
+}
+
+.main-btns {
+    display: flex;
+    gap: 3rem;
+}
+
+.main-btns button{
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    transition: 0.5s ease;
+
+}
+
+.chrome-btn {
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+}
+
+.chrome-btn:hover {
+    background-color: transparent;
+    border: 1px solid hsl(231, 69%, 60%);
+    color: hsl(231, 69%, 60%);
+}
+
+.frfx-btn {
+    background-color: rgb(219, 219, 219);
+    box-shadow: 0 3px 5px -2px gray;
+;
+}
+
+.frfx-btn:hover {
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+
+.img-container img {
+    height: 70%;
+    margin-top: 6rem;
+    
+}
+
+.features-container {
+    padding: 4rem 12rem 4rem 12rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+
+.features-titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.features-titles h3 {
+    font-size: 3rem;
+    font-weight: 550;
+}
+
+.features-titles p {
+    font-size: 1.6rem;
+    text-align: center;
+    width: 45%;
+    opacity: 0.6;
+    line-height: 2.1rem;
+
+}
+
+.types-titles {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.types-text {
+    display: flex;
+    gap: 8rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.types-text h3 {
+    font-weight: 450;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.line {
+    width: 60%;
+    height: 1px;
+    background-color: rgb(179, 179, 179);
+}
+
+.features-types {
+    display: flex;
+    gap: 14rem;
+}
+
+.text-features-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.text-features-container h2 {
+    font-size: 3rem;
+    font-weight: 450;
+}
+
+.text-features-container p {
+    width: 80%;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    opacity: 0.6;
+}
+
+.text-features-container button {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s ease;
+    
+}
+
+.text-features-container button:hover {
+    background-color: transparent;
+    border: 1px solid hsl(231, 69%, 60%);
+    color: hsl(231, 69%, 60%);
+}
+
 
 
