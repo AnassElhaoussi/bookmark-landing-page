@@ -74,7 +74,7 @@ body {
 .text-container h1 {
     font-size: 5rem;
     opacity: 0.9;
-    font-weight: 550;
+    font-weight: 500;
     width: 120%;
 }
 
@@ -123,8 +123,8 @@ body {
 }
 
 .img-container img {
-    height: 70%;
-    margin-top: 6rem;
+    height: 80%;
+    margin-top: 5rem;
     
 }
 
@@ -183,26 +183,33 @@ body {
     background-color: rgb(179, 179, 179);
 }
 
-.features-types {
+
+
+.card {
     display: flex;
-    gap: 14rem;
+    gap: 12rem;
+    position: absolute;
+    
 }
+
+
 
 .text-features-container {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    justify-content: center;
 }
 
 .text-features-container h2 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 450;
 }
 
 .text-features-container p {
     width: 80%;
-    font-size: 1.4rem;
-    line-height: 2rem;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
     opacity: 0.6;
 }
 
@@ -223,6 +230,17 @@ body {
     border: 1px solid hsl(231, 69%, 60%);
     color: hsl(231, 69%, 60%);
 }
+
+
+
+.active {
+    opacity: 1;
+}
+
+.notactive {
+    opacity: 0;
+}
+
 
 
 
