@@ -8,6 +8,7 @@ html {
 
 body {
     overflow-x: hidden;
+    
 }
 
 * {
@@ -185,11 +186,10 @@ body {
 
 
 
-.card {
+.features-card {
     display: flex;
     gap: 12rem;
-    position: absolute;
-    
+
 }
 
 
@@ -232,15 +232,270 @@ body {
 }
 
 
+.extensions {
+    padding: 4rem 12rem 4rem 12rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
 
-.active {
-    opacity: 1;
 }
 
-.notactive {
-    opacity: 0;
+
+.extensions-text {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
 }
 
+.extensions-text h2 {
+    font-size: 3rem;
+    font-weight: 550;
+
+}
+
+.extensions-text p {
+    font-size: 1.5rem;
+    width: 50%;
+    line-height: 2.2rem;
+    opacity: 0.7;
+
+}
+
+.extensions-cards {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    box-shadow:  0 1px 20px -10px  gray;
+    border-radius: 1rem;
+    padding: 4rem 0 4rem 0;
+    
+}
+
+.card:nth-child(2){
+    transform: translateY(10%);
+}
+
+.card:nth-child(3){
+    transform: translateY(20%);
+}
+
+
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    
+}
+
+.col-1 h2 {
+    font-size: 2rem;
+    opacity: 0.9;
+}
+
+.col-1 p {
+    opacity: 0.6;
+    font-size: 1.5rem;
+
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.col-2 button {
+    border: none;
+    padding: 1rem 2rem;
+    background-color:hsl(231, 69%, 60%) ;
+    color: white;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+
+.col-2 button:hover {
+    border: 1px solid hsl(231, 69%, 60%);
+    color: hsl(231, 69%, 60%);
+    background-color: transparent;
+}
+
+
+.faq {
+    padding: 8rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    align-items: center;
+
+    
+    
+}
+
+.faq-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+
+}
+
+.faq-text h2 {
+    font-size: 2.8rem;
+    font-weight: 550;
+}
+
+.faq-text p {
+    font-size: 1.6rem;
+    width: 60%;
+    line-height: 2rem;
+    opacity: 0.7;
+
+    
+    
+}
+
+.faq-container:nth-child(1){
+    padding-top: 2.5rem;
+    border-top: 1px solid rgb(187, 187, 187);
+}
+
+.faq-container {
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    
+}
+
+.faq-questions {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+
+
+    
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+    
+}
+
+.question h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+
+.question img {
+    height: 100%;
+    cursor: pointer;
+    transition: transform 1s ease;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+
+.answer p {
+    font-size: 1.5rem;
+
+    opacity: 0.7;
+    line-height: 1.6;
+}
+
+.faq-btn button {
+    background-color: hsl(231, 69%, 60%);
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+
+.faq-container.active .answer {
+    max-height: 300px;
+}
+
+.faq-container.active img {
+    transform: rotate(180deg);
+}
+
+
+.email-val {
+    background-color: hsl(231, 69%, 60%);
+    margin-top: 6rem;
+    padding: 6rem;
+
+}
+
+.val-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.val-container h3 {
+    font-size: 1.1rem;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+.val-container h1 {
+    font-size: 3rem;
+    width: 35%;
+    font-weight: 400;
+}
+
+#form {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+#email-input {
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 0.8rem;
+
+}
+
+.contact-btn {
+    background-color: hsl(0, 94%, 66%);
+    text-decoration: none;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.8rem;
+    font-size: 1.3rem;
+    border: none;
+    cursor: pointer;
+    
+}
 
 
 
