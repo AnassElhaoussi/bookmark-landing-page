@@ -483,6 +483,7 @@ body {
     outline: none;
     border-radius: 0.8rem;
 
+
 }
 
 .contact-btn {
@@ -498,4 +499,51 @@ body {
 }
 
 
+#text {
+    display: block;
+    text-align: left;
+    color: white;
+    font-size: 1.8rem;
+
+
+}
+
+.footer {
+    background-color: hsl(229, 31%, 21%);
+
+}
+
+
+.footer-container {
+    padding: 2rem 14rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links {
+    display: flex;
+    gap: 8rem;
+}
+
+.footer-links img {
+    height: 100%;
+}
+
+.footer-links ul {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 3rem;
+    cursor: pointer;
+}
 
