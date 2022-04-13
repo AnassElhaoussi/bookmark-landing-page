@@ -84,7 +84,7 @@ contactBtn.addEventListener('click', () => {
         form.classList.remove("invalid")
      
         text.innerHTML = "Please enter a valid email adress !"
-        text.style.color = "#fff"
+        text.style.color = "#ff0000"
      }
 
 
